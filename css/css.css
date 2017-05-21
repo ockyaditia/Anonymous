@@ -1,0 +1,461 @@
+@font-face
+{
+	font-family: DroidSerif-BoldItalic;
+	src: url('../font/DroidSerif-BoldItalic.ttf');
+}
+@font-face
+{
+	font-family: airstrike;
+	src: url('../font/airstrike.ttf');
+}
+html
+{
+	font-family: DroidSerif-BoldItalic;
+}
+body
+{
+	background-image:url("../images/background.jpg");
+	background-attachment:fixed;
+}
+.area
+{
+	position:absolute;
+	margin-left:45px;
+	margin-top:10px;
+	margin-bottom:20px;
+	width:1230px;
+	height:2240px;
+	background-color:white;
+	opacity: 0.97;
+	-webkit-box-shadow:0 0 20px white;
+	-moz-box-shadow: 0 0 20px white;
+	box-shadow:0 0 20px white;
+}
+.copyright
+{
+	position:absolute;
+	margin-left:45px;
+	margin-top:1900px;
+	margin-bottom:20px;
+	width:1230px;
+	height:350px;
+	background-color:#009966;
+	opacity: 0.7;
+	-webkit-box-shadow:0 0 20px white;
+	-moz-box-shadow: 0 0 20px white;
+	box-shadow:0 0 20px white;
+}
+.logo
+{
+	margin-left:140px;
+	margin-top:50px;
+	position:absolute;
+}
+.a
+{
+	text-decoration:none;
+	font-family:georgia;
+}
+.link
+{
+	color: #000000;
+	text-align:center;
+	-webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.link:hover
+{
+	text-align:center;
+	color: #009966;
+	-webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.link:active
+{
+	color:#009996;
+}
+.link:visited
+{
+	color:black;
+}
+.link2
+{
+	color: #009966;
+	text-align:center;
+	-webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+	text-decoration: none;
+}
+.link2:hover
+{
+	text-align:center;
+	color: #000;
+	-webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+	text-decoration: none;
+}
+.link2:active
+{
+	color:#009996;
+}
+.link2:visited
+{
+	color:#009966;
+}
+
+.glow
+{
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.glow:hover
+{
+	filter: contrast(0.5);
+	-webkit-filter: contrast(0.5);
+	-moz-filter: contrast(0.5);
+	-o-filter: contrast(0.5);
+	-ms-filter: contrast(0.5);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.posisiLogo
+{
+	position:absolute;
+	margin-left:-90px;
+	margin-top:-15px;
+	-webkit-box-shadow:0 0 20px white;
+	-moz-box-shadow: 0 0 20px white;
+	box-shadow:0 0 20px white;
+}
+
+.posisiTulisan
+{
+	position:absolute;
+	margin-left:50px;
+	margin-top:-15px;
+	width:1100px;
+	-webkit-box-shadow:0 0 20px white;
+	-moz-box-shadow: 0 0 20px white;
+	box-shadow:0 0 20px white;
+	text-align:justify;
+	font-family:georgia;
+	line-height:2.0;
+}
+.garis
+{
+	margin-top:180px;
+	margin-left:50px;
+	width:90%;
+}
+#cssmenu {
+  height: 44px;
+  width: auto;
+  position:absolute;
+  margin-left:450px;
+  margin-top:60px;
+}
+#cssmenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+#cssmenu > ul {
+  position: relative;
+  display: block;
+  height: 32px;
+  width: 100%;
+  z-index: 500;
+}
+#cssmenu > ul > li {
+  display: block;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu > ul > #menu-button {
+  display: none;
+}
+#cssmenu ul li a {
+  display: block;
+  text-decoration: none;
+}
+#cssmenu > ul > li > a {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 20px;
+  color: #009966;
+  -webkit-transition: color 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out;
+  -ms-transition: color 0.25s ease-out;
+  -o-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 32px;
+}
+#cssmenu > ul > li:hover > a {
+  color: black;
+}
+#cssmenu li.has-sub::after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+#cssmenu > ul > li.has-sub::after {
+  right: 10px;
+  top: 20px;
+  border: 5px solid transparent;
+  border-top-color: #7a8189;
+}
+#cssmenu > ul > li:hover::after {
+  border-top-color: #000000;
+}
+#indicatorContainer {
+  position: absolute;
+  height: 12px;
+  width: 100%;
+  bottom: 0px;
+  overflow: hidden;
+  z-index: -1;
+}
+#pIndicator {
+  position: absolute;
+  height: 0;
+  width: 100%;
+  border: 12px solid transparent;
+  z-index: -2;
+  -webkit-transition: left .25s ease;
+  -moz-transition: left .25s ease;
+  -ms-transition: left .25s ease;
+  -o-transition: left .25s ease;
+  transition: left .25s ease;
+}
+#cIndicator {
+  position: absolute;
+  height: 0;
+  width: 100%;
+  border: 12px solid transparent;
+  top: -12px;
+  right: 100%;
+  z-index: -2;
+}
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+  top: 70px;
+  opacity: 0;
+  -webkit-transition: opacity .3s ease, top .25s ease;
+  -moz-transition: opacity .3s ease, top .25s ease;
+  -ms-transition: opacity .3s ease, top .25s ease;
+  -o-transition: opacity .3s ease, top .25s ease;
+  transition: opacity .3s ease, top .25s ease;
+  z-index: 1000;
+}
+#cssmenu ul ul ul {
+  top: 37px;
+  padding-left: 5px;
+}
+#cssmenu ul ul li {
+  position: relative;
+}
+#cssmenu > ul > li:hover > ul {
+  left: auto;
+  top: 44px;
+  opacity: 1;
+}
+#cssmenu ul ul li:hover > ul {
+  left: 110px;
+  top: 0;
+  opacity: 1;
+}
+#cssmenu ul ul li a {
+  width: 220px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #009966;
+  background-color:white;
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -ms-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+#cssmenu ul ul li:hover > a {
+  color: black;
+}
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul li.last > a {
+  border-bottom: 0;
+}
+.submenuArrow {
+  border: 6px solid transparent;
+  width: 0;
+  height: 0;
+  border-bottom-color: #fff;
+  position: absolute;
+  top: -12px;
+}
+#cssmenu ul ul li.has-sub::after {
+  border: 4px solid transparent;
+  border-left-color: #fff;
+  left: 110px;
+  top: 12px;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transition: -webkit-transform 0.2s ease, right 0.2s ease;
+}
+#cssmenu ul ul li.has-sub:hover::after {
+  border-left-color: #fff;
+  left: 120px;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+@media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #cssmenu {
+    width: auto;
+  }
+  #cssmenu ul {
+    width: auto;
+  }
+  #cssmenu .submenuArrow,
+  #cssmenu #indicatorContainer {
+    display: none;
+  }
+  #cssmenu > ul {
+    height: auto;
+    display: block;
+  }
+  #cssmenu > ul > li {
+    float: none;
+  }
+  #cssmenu li,
+  #cssmenu > ul > li {
+    display: none;
+  }
+  #cssmenu ul ul,
+  #cssmenu ul ul ul,
+  #cssmenu ul > li:hover > ul,
+  #cssmenu ul ul > li:hover > ul {
+    position: relative;
+    left: auto;
+    top: auto;
+    opacity: 1;
+    padding-left: 0;
+  }
+  #cssmenu ul .has-sub::after {
+    display: none;
+  }
+  #cssmenu ul li a {
+    padding: 12px 20px;
+  }
+  #cssmenu ul ul li a {
+    border: 0;
+    background: none;
+    width: auto;
+    padding: 8px 35px;
+  }
+  #cssmenu ul ul li:hover > a {
+    background: none;
+    color: #8c9195;
+  }
+  #cssmenu ul ul ul a {
+    padding: 8px 50px;
+  }
+  #cssmenu ul ul ul ul a {
+    padding: 8px 65px;
+  }
+  #cssmenu ul ul ul ul ul a {
+    padding: 8px 80px;
+  }
+  #cssmenu ul ul ul ul ul ul a {
+    padding: 8px 95px;
+  }
+  #cssmenu > ul > #menu-button {
+    display: block;
+    cursor: pointer;
+  }
+  #cssmenu #menu-button > a {
+    padding: 14px 20px;
+  }
+  #cssmenu ul.open li,
+  #cssmenu > ul.open > li {
+    display: block;
+  }
+  #cssmenu > ul.open > li#menu-button > a {
+    color: #fff;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.1);
+  }
+  #cssmenu #menu-button::after {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 22px;
+    border-top: 2px solid #7a8189;
+    border-bottom: 2px solid #7a8189;
+    right: 20px;
+    top: 15px;
+  }
+  #cssmenu #menu-button::before {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 22px;
+    border-top: 2px solid #7a8189;
+    right: 20px;
+    top: 25px;
+  }
+  #cssmenu ul.open #menu-button::after,
+  #cssmenu ul.open #menu-button::before {
+    border-color: #fff;
+  }
+}
+
+/* For generic page styles. Not for sliders. */
+
+h2 {display:inline;}
+.div1, .div2 {width:700px;margin:0 auto;}
+.div1 {margin-top:30px;margin-bottom:60px;text-align:center;line-height:20px;}
+.div1 P {font-size:18px;}
+.div1 a, .div2 a {color:#07C; }
+.div1 a {margin:0 8px;}
+.div1 a.current {color:black; text-decoration:none;}
+.div2 {margin-top:70px;}
+.div2 li {padding-top:6px;padding-bottom:6px;}
+.green {color:Green;}
+.cn {font-family: "Courier New", Georgia;}
+#status {display:inline-block; margin-left:26px;line-height:50px;height:50px;vertical-align:middle;}
+
+.code
+{
+    border: dashed 1px #BCBCCB; padding:8px 12px; background-color: #F3F3F9; white-space:pre;
+    font-size:12px; margin:6px 0;overflow:auto; 
+}
